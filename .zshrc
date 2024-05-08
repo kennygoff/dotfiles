@@ -52,6 +52,7 @@ export PATH="/opt/homebrew/bin:$PATH"
 # Project shortcuts
 alias tb="cd ~/dev/apps/tomebrew"
 alias kg="cd ~/dev/web/kennygoff.com"
+alias sqc="cd ~/dev/web/sidequesters.club"
 alias dot="cd ~/dev/utils/dotfiles"
 
 # Updates
