@@ -22,6 +22,15 @@ git clone git@github.com:kennygoff/dotfiles.git ~/dev/utils/dotfiles
 ln -nfs ~/dev/utils/dotfiles/.zshrc ~/.zshrc
 ```
 
+Alternatively source this file from the `.zshrc` at the top to avoid overwritting and also allow device-specific `.zshrc` customizations:
+
+```sh
+# ~/.zshrc
+source ~/dev/utils/dotfiles/.zshrc
+
+export CUSTOM_ENV="foobar"
+```
+
 ### iTerm2
 
 1. Open iTerm2 settings
