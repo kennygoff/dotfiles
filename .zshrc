@@ -36,10 +36,10 @@ export LANG=en_US.UTF-8
 #   |ruby -e 'print $1 if STDIN.gets =~ /^password: "(.*)"$/'
 # }
 
-# NVM
+# NVM (Handled by zsh-nvm)
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Homebrew
 export PATH="/opt/homebrew/bin:$PATH"
